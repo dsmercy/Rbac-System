@@ -8,7 +8,7 @@ namespace RbacSystem.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class GroupsController : ControllerBase
 {
     private readonly IGroupService _groupService;
@@ -108,7 +108,7 @@ public class GroupsController : ControllerBase
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class RolesController : ControllerBase
 {
     private readonly IRoleService _roleService;
@@ -208,7 +208,7 @@ public class RolesController : ControllerBase
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class PermissionsController : ControllerBase
 {
     private readonly IPermissionService _permissionService;
@@ -308,7 +308,7 @@ public class PermissionsController : ControllerBase
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class AssignmentsController : ControllerBase
 {
     private readonly IAssignmentService _assignmentService;
